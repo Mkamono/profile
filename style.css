@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  font-family: serif;
+}
+
+header {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  text-align: left;
+}
+
+h1 {
+  color: #364e96;
+  padding: 0.5em 0;
+  border-top: solid 3px #364e96;
+  border-bottom: solid 3px #364e96;
+}
+
+h2 {
+  padding: 0.5em;
+  color: #494949;
+  background: #f4f6ff;
+  border-left: solid 5px #5874ff;
+}
+
+#app {
+  margin: 8px;
+}
+
+#basicinfo {
+  background-color: #364e96;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#basicinfo > div {
+  margin: 1em;
+}
+
+#basicinfo .text > p {
+  white-space: nowrap;
+  font-size: large;
+}
+
+img {
+  width: 100%;
+  max-height: 24em;
+}
+
+.careertable {
+  width: 80vw;
+  margin: auto;
+  border-spacing: 4;
+}
+
+.careertable td {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: #ebf0ff;
+}
+
+.careertable th {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: #364e96;
+}
+
+.swichgraph {
+  color: white;
+  background-color: #364e96;
+  padding: 1em;
+  border-radius: 1.5em;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow-wrap: anywhere;
+}
+
+.flexbox > .subheading {
+  margin: 0.5em;
+  width: 20em;
+  border: 0.5em inset rgba(230, 230, 230, 0.6);
+  padding: 1em;
+  padding-top: 0%;
+}
+
+.feature {
+  margin: 1em;
+}
+
+.feature > .heading {
+  text-align: center;
+}
+
+.feature div.subheading {
+  padding: 1em;
+  border: 1px solid rgba(10, 10, 10, 0.6);
+  margin-top: 1em;
+  border-radius: 1em;
+}
