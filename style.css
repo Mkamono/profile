@@ -101,30 +101,7 @@ img {
   border: 0.5em inset rgba(230, 230, 230, 0.6);
   padding: 1em;
   padding-top: 0%;
-}
-
-@media screen and (max-width: 2000px) {
-  .flexbox > .subheading {
-    width: 20%;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  .flexbox > .subheading {
-    width: 27%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .flexbox > .subheading {
-    width: 41%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .flexbox > .subheading {
-    width: auto;
-  }
+  flex-grow: 1;
 }
 
 .feature {
