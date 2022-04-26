@@ -103,6 +103,30 @@ img {
   padding-top: 0%;
 }
 
+@media screen and (max-width: 2000px) {
+  .flexbox > .subheading {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .flexbox > .subheading {
+    width: 27%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .flexbox > .subheading {
+    width: 41%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .flexbox > .subheading {
+    width: auto;
+  }
+}
+
 .feature {
   margin: 1em;
 }
