@@ -83,7 +83,7 @@ img {
 .swichgraph {
   color: white;
   background-color: #364e96;
-  padding: 1em;
+  padding: 0.7em;
   border-radius: 1.5em;
 }
 
@@ -107,7 +107,16 @@ img {
   margin: 1em;
 }
 
-.feature > .heading {
+h1.heading {
+  text-align: left;
+  text-indent: 1em;
+}
+
+h1.heading::before {
+  content: "▶ ";
+}
+
+.subheading {
   text-align: center;
 }
 
