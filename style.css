@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: serif;
+  overflow-wrap: break-word;
 }
 
 header {
@@ -45,6 +46,10 @@ h2 {
   flex-wrap: wrap;
 }
 
+#basicinfo .text {
+  flex-grow: 1;
+}
+
 #basicinfo > div {
   margin: 1em;
 }
@@ -55,7 +60,6 @@ h2 {
 }
 
 img {
-  width: 100%;
   max-height: 24em;
 }
 
@@ -92,7 +96,6 @@ img {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: flex-start;
-  overflow-wrap: anywhere;
 }
 
 .flexbox > .subheading {
