@@ -60,6 +60,9 @@ const graphvm = new Vue({
     },
     formatDate: function (datetime) {
       let dt = new Date(datetime);
+      if (dt.getDate() != undefined){
+        return `${dt.getFullYear()}年${dt.getMonth()}月${dt.getDate()}日`;
+      }
       return `${dt.getFullYear()}年${dt.getMonth()}月`;
     },
   },
