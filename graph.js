@@ -37,6 +37,18 @@ const graphvm = new Vue({
         name: "株式会社Arent(インターン)",
         date: [{ start: Date.UTC(2021, 9), finish: Date.UTC(2022, 5) }],
       },
+      {
+        name: "株式会社BLAM(インターン)",
+        date: [{ start: Date.UTC(2022, 8, 9), finish: Date.UTC(2022, 11, 7) }],
+      },
+      {
+        name: "株式会社ラクスル(インターン)",
+        date: [{ start: Date.UTC(2022, 8, 22), finish: Date.UTC(2022, 8, 26) }],
+      },
+      {
+        name: "株式会社メディアドゥ(インターン)",
+        date: [{ start: Date.UTC(2022, 9, 8), finish: Date.UTC(2022, 9, 14) }],
+      },
     ],
     graphdata: [],
     showgraph: true,
