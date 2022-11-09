@@ -6,10 +6,6 @@ const graphvm = new Vue({
     graphdisplay: "block",
     career: [
       {
-        name: "金沢市立二水高等学校",
-        date: [{ start: Date.UTC(2016, 4), finish: Date.UTC(2020, 4) }],
-      },
-      {
         name: "金沢大学",
         date: [{ start: Date.UTC(2020, 4), finish: Date.UTC(2024, 4) }],
       },
