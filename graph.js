@@ -35,7 +35,7 @@ const graphvm = new Vue({
       },
       {
         name: "株式会社BLAM(インターン)",
-        date: [{ start: Date.UTC(2022, 8, 9), finish: Date.UTC(2022, 11, 7) }],
+        date: [{ start: Date.UTC(2022, 8, 9), finish: Date.UTC(2022, 11, 1) }],
       },
       {
         name: "株式会社ラクスル(インターン)",
